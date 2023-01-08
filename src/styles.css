@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+table {
+  border-collapse: collapse; /* shared or sepearte borders */
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
